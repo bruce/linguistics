@@ -1,0 +1,30 @@
+
+= Latin Ruby Linguistics Module - Synopsis
+
+This is an overview of the functionality currently in the Latin functions of
+the Ruby Linguistics module as of version 0.02:
+
+== Conjugation
+
+  Linguistics::use( :la )
+  aFirst = "amō amāre amāvī amatum".la.conjugate
+  aFirst.display_full_listing #=> Prints pretty chart to the screen
+	aFirst.active_voice_indicative_mood_perfect_tense_first_person_plural_number #=>amāvimus
+	aFirstConjugationVerbLatinVerb.active_voice_indicative_mood_imperfect_tense 
+  	#=>  Active voice indicative mood imperfect tense: amābam, amābās, amābat, amābāmus, amābātis, amābant
+		
+== Example
+
+See examples/latin_conjugation.rb
+
+== TO DO
+
+Figure out declensions?
+
+== Historical
+
+This interface leverages the code I wrote for LatinIRB (http://blackbeardev.com/verbalatinareleases/releases/LatVerb-0.9)
+
+== Author of Latin Component
+
+Steven G. Harms (http://stevengharms.com)

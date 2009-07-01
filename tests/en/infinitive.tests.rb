@@ -9,7 +9,7 @@
 unless defined? Linguistics::TestCase
 	testsdir = File::dirname( File::dirname(File::expand_path( __FILE__ )) )
 	$LOAD_PATH.unshift testsdir unless $LOAD_PATH.include?( testsdir )
-
+	
 	require 'lingtestcase'
 end
 

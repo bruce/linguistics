@@ -156,8 +156,8 @@ module Linguistics
 
 		# Create an languageProxy class for each language specified
 		languages.each do |lang|
-			# $stderr.puts "Extending the %p class with %p" %
-			#	[ klass, lang ] if $DEBUG
+			 #$stderr.puts "Extending the %p class with %p" %
+			 # [ klass, lang ] if $DEBUG
 
 			# Load the language module (skipping to the next if it's already
 			# loaded), make a languageProxy class that delegates to it, and
